@@ -17,5 +17,3 @@ Tests API : Postman
 Outils de développement : Visual Studio Code, Git
 Gestion des conteneurs : Docker (optionnel)
 Méthodologie : Scrum (Agile)
-Installation
-Clonez le dépôt GitHub :
