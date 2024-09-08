@@ -19,35 +19,3 @@ Gestion des conteneurs : Docker (optionnel)
 Méthodologie : Scrum (Agile)
 Installation
 Clonez le dépôt GitHub :
-
-bash
-Copier le code
-git clone https://github.com/votre-utilisateur/lchzs-management.git
-Accédez au répertoire backend :
-
-bash
-Copier le code
-cd server
-Installez les dépendances :
-
-bash
-Copier le code
-npm install
-Configurez la base de données SQL Server dans le fichier .env.
-
-Démarrez le serveur backend :
-
-bash
-Copier le code
-npm start
-Accédez au répertoire frontend :
-
-bash
-Copier le code
-cd ../client
-Installez les dépendances et démarrez le frontend :
-
-bash
-Copier le code
-npm install
-npm run dev
