@@ -1,0 +1,140 @@
+body > div:not([class*="popper"]) {
+    width: 100%;
+    height: 100%;
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-1d3eh95-MuiToolbar-root {
+    background: linear-gradient(to bottom, #042459, #052863);
+}
+
+p.MuiTypography-root.MuiTypography-body2.css-1yr8029-MuiTypography-root {
+    color: #ffffff;
+}
+
+.w-full.MuiBox-root.css-ykjw3j {
+    height: 1000px;
+}
+
+.mainC{
+    background: linear-gradient(to bottom, #000000, #052965);
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 650px;
+    transform: rotate(180deg);
+}
+
+.wave{
+    background: url("../images/triangle.svg");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: calc(244% + 1.3px);
+    height: 235px;
+}
+
+.virusImage{
+    margin-top: 40px;
+    right: 20px;
+    position: absolute;
+    height: 550px;
+    width: auto;
+}
+
+.textH2{
+    top: 90px;
+    left: 90px;
+    width: 500px;
+    color: #ffffff;
+    position: absolute;
+}
+
+.textbody{
+    top: 300px;
+    left: 90px;
+    width: 690px;
+    color: #ffffff;
+    position: absolute;
+}
+
+.testlaboImage{
+    border: #000000 2px solid;
+    border-radius: 100px;
+}
+
+.textTitle2{
+    width: 620px;
+}
+
+.Paper1Image{
+    height: 70%;
+    width: 100%;
+}
+
+.laboP{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: inset 20px 20px 60px #bebebe,
+            inset -20px -20px 60px #ffffff;
+}
+
+.LogoM{
+    background: linear-gradient(to bottom, #042459, #052863);
+    border-radius: 20px;
+    color: #ffffff;
+    box-shadow: inset 20px 20px 60px #052863,
+            inset -20px -20px 60px #042459;
+}
+
+
+
+
+@media (max-width: 903px) {
+    .virusImage {
+      display: none;
+    }
+
+    .mainC{
+        width: 900px;
+    }
+
+    .texte2 {
+        margin-top: 0px !important;
+          padding-left: 40px;
+    }
+}
+
+
+@media (max-width: 632px) {
+    .virusImage {
+      display: none;
+    }
+
+    .mainC{
+        width: 800px;
+    }
+
+    .texte2 {
+        margin-top: 0px !important;
+          padding-left: 40px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    /* Apply a left margin of 20px */
+    .texte2 {
+    margin-top: 0px !important;
+      padding-left: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* Apply a left margin of 20px */
+    .texte2 {
+        margin-top: 110px !important;
+    }
+}
